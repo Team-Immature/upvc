@@ -1,40 +1,43 @@
-
 .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(56, 55, 50);
-    height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(56, 55, 50);
 }
 
 a {
-    color: white;
-    text-decoration: none;
-    font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 15px 5px;
 }
-
+a:hover {
+  color: rgb(196, 188, 188);
+}
 
 .header .logo {
-    font-size: 2.5rem;        
-    font-weight: bold;
-    color: white;
-    text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
 }
- 
 
 .navbar {
-    width: 36%;
-    display: flex;
-    justify-content: space-between;
+  width: 36%;
+  display: flex;
+  justify-content: space-between;
 }
 
-
 button {
-    padding: 10px 20px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  padding: 8px 25px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #338536;
 }
