@@ -1,0 +1,40 @@
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(56, 55, 50);
+    height: 100px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+.header .logo {
+    font-size: 2.5rem;        
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+ 
+
+.navbar {
+    width: 36%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
