@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Test from "./components/Test";
 import NavBar from "./components/NavBar/NavBar";
+import ProductSection from "./components/Carousel/ProductSection";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
       <div>
         <NavBar />
         {/* <Test /> */}
+        <ProductSection />
       </div>
     </>
   );
