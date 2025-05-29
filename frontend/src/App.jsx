@@ -5,16 +5,18 @@ import "./App.css";
 import Test from "./components/Test";
 import NavBar from "./components/NavBar/NavBar";
 import ProductSection from "./components/Carousel/ProductSection";
+import Feature from "./components/Feature/Feature";
 
 function App() {
-  const [count, setCount] = useState(0);
+  // const [count, setCount] = useState(0);
 
   return (
     <>
       <div>
         <NavBar />
         {/* <Test /> */}
-        <ProductSection />
+          <ProductSection />
+          <Feature />
       </div>
     </>
   );
