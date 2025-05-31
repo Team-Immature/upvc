@@ -81,7 +81,7 @@
 /* ==== PRODUCT SCROLL CONTAINER ==== */
 .product_images {
   display: flex;
-  overflow-x: auto;
+  flex-direction: row;
   gap: 24px;
   padding-bottom: 8px;
 }
