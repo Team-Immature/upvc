@@ -13,7 +13,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="app">
         <NavBar />
         <Banner />
         <div className=' w-full md:h-[100px] h-[50px]'> </div>

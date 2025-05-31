@@ -35,7 +35,7 @@
   transform-origin: center;
   width: 60px;
   height: 4px;
-  background: grey;
+  background: rgb(221, 221, 221);
   border-radius: 2px;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
@@ -47,7 +47,7 @@
   transform: scale(1.05);
 }
 .feature{
-    background: #ffffff;
+    background: whitesmoke;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
   padding: 30px;
@@ -62,3 +62,14 @@
 .feature:hover{
     transform: translateY(-8px);
 }
+/*asdf*/
+.feature:hover .heading::after {
+  transform: translateX(-50%) scaleX(2.5);
+  background-color: #4a90e2;
+}
+
+.feature:hover .heading {
+  transform: scale(1.05);
+}
+
+/*asdf*/

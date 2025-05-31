@@ -11,7 +11,7 @@
 
 /* ==== SECTION CARD WRAPPER ==== */
 .productSection {
-  background: #494545;
+  background: whitesmoke;
   border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -23,6 +23,16 @@
   transition: transform 0.3s ease;
   width: 100%;
 }
+/*hgajk*/
+.productSection:hover .product_heading::after {
+  transform: translateX(-50%) scaleX(2.5);
+  background-color: #4a90e2;
+}
+
+.productSection:hover .product_heading {
+  transform: scale(1.05);
+}
+/*dgfs*/
 
 .productSection:hover {
   transform: translateY(-8px);
