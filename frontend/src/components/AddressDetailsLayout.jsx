@@ -4,10 +4,10 @@ import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 const AddressDetailsLayout = () => {
   return (
-    <div className=' bg-gray-100/90 min-h-screen max-w-7xl mx-auto rounded-4xl shadow-2xl my-20 grid grid-cols-1 md:grid-cols-12 gap-10 p-5'>
+    <div className=' bg-[#d8e0e8] min-h-screen max-w-7xl mx-auto rounded-4xl shadow-2xl my-20 grid grid-cols-1 md:grid-cols-12 gap-10 p-5 '>
       <div className=' md:col-span-6 rounded-3xl flex flex-col p-5 h-[600px] md:h-auto '>
-        <div className='bg-white shadow-lg w-full h-1/2 rounded-2xl my-5  px-10 py-10 flex flex-col '>
-          <h2 className='text-lg md:text-xl border border-gray-800 xl:text-2xl w-auto text-center rounded-2xl '>
+        <div className='bg-[#f5f5f5] shadow-lg w-full h-1/2 rounded-2xl my-5  px-10 py-10 flex flex-col text-gray-700 hover:scale-102 transition-all duration-300 '>
+          <h2 className='bg-white text-lg md:text-xl border border-gray-800 xl:text-2xl w-auto text-center rounded-2xl '>
             Contact
           </h2>
           {/* phone number div */}
@@ -21,8 +21,8 @@ const AddressDetailsLayout = () => {
             <h1 className='text-sm md:text-lg :'>zuzubee@gmail.com</h1>
           </div>
         </div>
-        <div className='bg-white shadow-lg w-full h-1/2 rounded-2xl my-5  px-10 py-10 flex flex-col '>
-          <h2 className='text-lg md:text-xl border border-gray-800 xl:text-2xl w-auto text-center rounded-2xl '>
+        <div className='bg-[#f5f5f5] shadow-lg w-full h-1/2 rounded-2xl my-5  px-10 py-10 flex flex-col text-gray-700 hover:scale-102 transition-all duration-300 '>
+          <h2 className='bg-white text-lg md:text-xl border border-gray-800 xl:text-2xl w-auto text-center rounded-2xl '>
             Visit Us
           </h2>
           {/* location div */}
