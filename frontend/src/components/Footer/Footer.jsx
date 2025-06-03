@@ -1,14 +1,16 @@
 import React from "react";
 // import logo from './assets/RS_enterprises.jpeg';
-
+import logo from "../../assets/r3.jpg";
 const Footer = () => {
   return (
-    <footer className='bg-gradient-to-r from-gray-700 via-gray-600 to-gray-800  w-full text-gray-200'>
-      <div className='max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row justify-between md:items-start gap-6 md:gap-0'>
+    <footer className='bg-gradient-to-r from-gray-700 via-gray-600 to-gray-800  w-full text-gray-200 '>
+      <div className='max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row justify-between md:items-start gap-6 md:gap-0 items-center text-center'>
         {/* Left Section - Logo or Image */}
         <div className='text-base '>
           <h3 className='font-semibold text-[28px] mb-2'>About</h3>
-          <p>Some Image / Logo</p>
+          <div className='flex justify-center items-center'>
+            <img src={logo} alt='title image' className='size-18 rounded-xl' />
+          </div>
         </div>
 
         {/* Middle Section - Quick Links */}
