@@ -10,6 +10,7 @@ import Banner from "./components/Banner";
 import Footer from "./components/Footer/Footer";
 import AddressDetailsLayout from "./components/AddressDetailsLayout";
 
+
 function App() {
   // const [count, setCount] = useState(0);
 
@@ -21,6 +22,7 @@ function App() {
         <div className=' w-full md:h-[100px] h-[50px]'> </div>
         <ProductSection />
         <AddressDetailsLayout />
+       
         <Footer />
       </div>
     </>

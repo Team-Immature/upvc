@@ -8,7 +8,7 @@ const Footer = () => {
         
         {/* Left Section - Logo or Image */}
         <div className="text-base ">
-          <h3 className="font-semibold text-[28px] mb-2">About</h3>
+          <h3 className="font-semibold text-[28px] mb-2 ">About</h3>
           <p>Some Image / Logo</p>
         </div>
 
