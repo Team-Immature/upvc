@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose=require('mongoose');
+
 const app = express();
 const Port = 1000;
 const customerRouter = require('../backend/routes/userRouter');
@@ -14,7 +15,6 @@ connectDb("mongodb://127.0.0.1:27017/upvc_customer").then(()=>{console.log("conn
 app.use(express.urlencoded({extended : false}));
 app.use(express.json());
 
-//route
 app.use('/api',customerRouter);
 // app.use('*', (req, res) => {
 //     res.status(404).json({ message: 'Route not found' });

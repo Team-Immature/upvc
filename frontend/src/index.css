@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 @import "tailwindcss";
-* {
-  font-family: "Roboto Condensed", sans-serif;
- 
-}
 
-a {
+
+h1, h2, h3, h4, h5, h6,
+a, li, p {
+  font-family: "Roboto Condensed", sans-serif;
   text-decoration: none;
 }
