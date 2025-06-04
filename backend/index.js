@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 const express = require('express');
 const mongoose=require('mongoose');
 
@@ -10,7 +12,8 @@ const bodyparser = require('body-parser');
 
 //connect to mongo
 const { connectDb } = require('../backend/config/db');
-connectDb("mongodb://127.0.0.1:27017/upvc_customer").then(()=>{console.log("connected to Db");}).catch(err => console.log("DB Connection failed:"));
+const DB_URL = process.env.ATLAS_URL;
+connectDb(DB_URL).then(()=>{console.log("connected to Db");}).catch(err => console.log("DB Connection failed:"));
 
 app.use(express.urlencoded({extended : false}));
 app.use(express.json());
