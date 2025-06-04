@@ -43,7 +43,7 @@ const NavBar = () => {
         </a>
         <a
           className='text-white py-2 px-4 hover:text-gray-300 hover:scale-105 transition-all duration-150 mx-5'
-          href='/services'
+          href='/work'
         >
           Our Work
         </a>
