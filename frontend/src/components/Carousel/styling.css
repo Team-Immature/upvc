@@ -183,8 +183,8 @@
 }
 
 .aimg {
-  width: 60px;
-  height: 60px;
+  width: 30px;
+  height: 30px;
 }
 
 /* ==== RESPONSIVE STYLES ==== */
@@ -201,14 +201,14 @@
 @media (max-width: 768px) {
   .productSection {
     display: flex;
-  flex-direction: column;
-  gap: 24px;
-  padding-bottom: 8px;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 8px;
   }
 
   .product_images {
     flex-direction: column;
-    
+
     gap: 20px;
     padding: 0;
   }
@@ -238,8 +238,8 @@
   }
 
   .aimg {
-    width: 40px;
-    height: 40px;
+    width: 25px;
+    height: 25px;
   }
 
   .product_heading {
