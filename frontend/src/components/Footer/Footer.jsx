@@ -18,7 +18,7 @@ const Footer = () => {
           <h3 className='font-semibold text-[28px] mb-1'>Quick Links</h3>
           <div className='flex flex-col space-y-[5px] '>
             <a
-              href='#'
+              href='/'
               className='group relative inline-block text-sm transition-transform duration-300 hover:scale-105'
             >
               <span className='relative z-10'>Home</span>
@@ -26,7 +26,7 @@ const Footer = () => {
             </a>
 
             <a
-              href='#'
+              href='/products'
               className='group relative inline-block text-sm transition-transform duration-300 hover:scale-105'
             >
               <span className='relative z-10'>Products</span>
@@ -34,7 +34,7 @@ const Footer = () => {
             </a>
 
             <a
-              href='#'
+              href='/work'
               className='group relative inline-block text-sm transition-transform duration-300 hover:scale-105'
             >
               <span className='relative z-10'>Our Work</span>
@@ -63,7 +63,7 @@ const Footer = () => {
             </a>
 
             <a
-              href='#'
+              href='/contact'
               className='group relative inline-block text-sm transition-transform duration-300 hover:scale-105'
             >
               <span className='relative z-10'>Contact Us</span>
