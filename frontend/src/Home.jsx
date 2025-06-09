@@ -6,6 +6,7 @@ import Feature from "./components/Feature/Feature";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer/Footer";
 import AddressDetailsLayout from "./components/AddressDetailsLayout";
+// import CustomerOrderForm from "./components/CustomerOrderForm/CustomerOrderForm";
 
 
 function Home() {
