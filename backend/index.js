@@ -1,4 +1,5 @@
 require('dotenv').config();
+const cors = require('cors');
 
 const express = require('express');
 const mongoose=require('mongoose');
@@ -18,6 +19,9 @@ connectDb(DB_URL).then(()=>{console.log("connected to Db");}).catch(err => conso
 app.use(express.urlencoded({extended : false}));
 app.use(express.json());
 
+app.use(cors({
+  origin: 'http://localhost:5173'
+}));
 app.use('/api',customerRouter);
 // app.use('*', (req, res) => {
 //     res.status(404).json({ message: 'Route not found' });
