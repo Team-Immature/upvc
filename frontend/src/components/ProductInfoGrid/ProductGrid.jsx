@@ -7,6 +7,7 @@ import ProfileArea from "./ProfileArea";
 const ProductGrid = () => {
   return (
     <div>
+      <div id='Window-heading-top' className='h-10 mb-6'></div>
       <h1 className='mb-0 mt-7 text-[2.5rem] font-bold text-[#1b2a41] text-center'>
         WINDOWS
       </h1>
