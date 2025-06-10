@@ -11,13 +11,13 @@ const NavBar = () => {
 
   return (
     <header className='sticky top-0 z-50 flex items-center justify-between px-4 py-3 bg-gradient-to-r from-gray-700 via-gray-600 to-gray-800'>
-      <div className='text-2xl font-bold text-white uppercase'>
+      <Link to='/' className='text-2xl font-bold text-white uppercase'>
         <img
           className='w-[40px] h-[40px] hover:cursor-pointer rounded-lg'
           src={logo}
           alt=''
         />
-      </div>
+      </Link>
 
       <button
         className='text-white text-3xl md:hidden focus:outline-none'
