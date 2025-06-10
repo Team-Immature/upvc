@@ -11,7 +11,7 @@ const DoorCard = () => {
   return (
     <div className='max-w-7xl mx-auto mt-20 p-10 rounded-3xl bg-[linear-gradient(135deg,_#f0f4f8,_#d9e2ec)]'>
       {/* Sliding Door */}
-      <div className='max-w-5xl mx-auto my-8'>
+      <div className='  mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Sliding Door
@@ -73,7 +73,7 @@ const DoorCard = () => {
                   home’s style. We offer a wide range of colours, including Milk
                   White, Dark Grey Metal, Black, Oak, Walnut, and more.
                 </p>
-                <button className='mx-auto mt-4 block bg-blue-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
+                <button className='mx-auto mt-4 block bg-blue-600 hover:cursor-pointer text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
                   See more
                 </button>
               </div>
@@ -104,7 +104,7 @@ const DoorCard = () => {
                   duration={1000}
                   className='cursor-pointer'
                 >
-                  <button className='mx-auto mt-4 block bg-green-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-green-700 hover:-translate-y-1 duration-200'>
+                  <button className='mx-auto mt-4 block bg-green-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-green-700 hover:cursor-pointer  hover:-translate-y-1 duration-200'>
                     See more
                   </button>
                 </Link>
@@ -115,7 +115,7 @@ const DoorCard = () => {
       </div>
 
       {/* Casement Door */}
-      <div className='max-w-5xl mx-auto my-8'>
+      <div className='  mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Casement Door
@@ -164,7 +164,7 @@ const DoorCard = () => {
                   Customize your windows to match your home’s style. Options:
                   Milk White, Dark Grey Metal, Black, Oak, Walnut, and more.
                 </p>
-                <button className='mx-auto mt-4 block bg-blue-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
+                <button className='mx-auto mt-4 block bg-blue-600 hover:cursor-pointer text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
                   See more
                 </button>
               </div>
@@ -195,7 +195,7 @@ const DoorCard = () => {
                   duration={1000}
                   className='cursor-pointer'
                 >
-                  <button className='mx-auto mt-4 block bg-green-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-green-700 hover:-translate-y-1 duration-200'>
+                  <button className='mx-auto mt-4 block bg-green-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-green-700 hover:cursor-pointer hover:-translate-y-1 duration-200'>
                     See more
                   </button>
                 </Link>
@@ -206,7 +206,7 @@ const DoorCard = () => {
       </div>
 
       {/* French Door */}
-      <div className='max-w-5xl mx-auto my-8'>
+      <div className='  mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             French Door
@@ -259,7 +259,7 @@ const DoorCard = () => {
                   home’s style. We offer a wide range of colours, including Milk
                   White, Dark Grey Metal, Black, Oak, Walnut, and more.
                 </p>
-                <button className='mx-auto mt-4 block bg-blue-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
+                <button className='mx-auto mt-4 block bg-blue-600 hover:cursor-pointer text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
                   See more
                 </button>
               </div>
@@ -290,7 +290,7 @@ const DoorCard = () => {
                   duration={1000}
                   className='cursor-pointer'
                 >
-                  <button className='mx-auto mt-4 block bg-green-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-green-700 hover:-translate-y-1 duration-200'>
+                  <button className='mx-auto mt-4 block bg-green-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-green-700 hover:cursor-pointer hover:-translate-y-1 duration-200'>
                     See more
                   </button>
                 </Link>
@@ -301,7 +301,7 @@ const DoorCard = () => {
       </div>
 
       {/* slide & fold door */}
-      <div className='max-w-5xl mx-auto my-8'>
+      <div className='  mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Slide and Fold Door
@@ -354,7 +354,7 @@ const DoorCard = () => {
                   home’s style. We offer a wide range of colours, including Milk
                   White, Dark Grey Metal, Black, Oak, Walnut, and more.
                 </p>
-                <button className='mx-auto mt-4 block bg-blue-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
+                <button className='mx-auto mt-4 block bg-blue-600 hover:cursor-pointer text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
                   See more
                 </button>
               </div>
@@ -385,7 +385,7 @@ const DoorCard = () => {
                   duration={1000}
                   className='cursor-pointer'
                 >
-                  <button className='mx-auto mt-4 block bg-green-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-green-700 hover:-translate-y-1 duration-200'>
+                  <button className='mx-auto mt-4 block bg-green-600 text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-green-700 hover:cursor-pointer hover:-translate-y-1 duration-200'>
                     See more
                   </button>
                 </Link>
