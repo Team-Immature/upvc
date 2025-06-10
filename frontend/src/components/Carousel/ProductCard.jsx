@@ -1,11 +1,13 @@
 import React from "react";
 import './styling.css';
-const ProductCard = (props) =>{
+
+import { Link } from 'react-router-dom';
+const ProductCard = ({ value, img, path }) =>{
     return(
-        <div className="productcard">
-            <img className="image" src={props.img} alt="" />
-            <h3>{props.value}</h3>
-        </div>
+        <Link to={path} className="productcard">
+            <img className="image" src={img} alt="" />
+            <h3>{value}</h3>
+        </Link>
     )
 }
 
