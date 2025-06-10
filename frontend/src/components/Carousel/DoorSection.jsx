@@ -1,17 +1,18 @@
 import React from "react";
-
 import ProductCard from "./ProductCard";
-//img
 import slidingDoor from "../../assets/slidingDoor.webp";
 import frenchDoor from "../../assets/frenchDoor.webp";
 import slidefoldD from "../../assets/slidefoldD.webp";
 import casementD from "../../assets/casementD.jpg";
-
-//img_end
-
 import arrow from "../../assets/arro.png";
+import { useNavigate } from "react-router-dom";
 
 const DoorSection = () => {
+  const navigate = useNavigate();
+
+  const handleSeeMore = () => {
+    navigate(`/products#Door-heading-top`);
+  };
   return (
     <div className='productSection'>
       <h2 className='product_heading'>Doors</h2>
@@ -24,7 +25,7 @@ const DoorSection = () => {
 
       <div className='arrow'>
         <h2 className='arrowHeading'>See More</h2>
-        <button className='see_more bg-none'>
+        <button onClick={handleSeeMore} className='see_more bg-none'>
           <img className='aimg' src={arrow} alt='' />
         </button>
       </div>
