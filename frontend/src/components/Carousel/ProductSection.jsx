@@ -2,6 +2,7 @@ import React from "react";
 import WindowSection from "./WindowSection";
 import DoorSection from "./DoorSection";
 import Feature from "../Feature/Feature";
+import Accordian from "../Accordian";
 
 const ProductSection = () => {
   return (
@@ -9,6 +10,8 @@ const ProductSection = () => {
       <WindowSection />
       <DoorSection />
       <Feature />
+      <Accordian />
+
     </div>
   );
 };

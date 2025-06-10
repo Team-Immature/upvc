@@ -66,6 +66,9 @@
   object-fit: contain;
   border-radius: 12px;
   margin-bottom: 12px;
+  max-height: 100%;
+  max-width: 100%;
+  
 }
 
 .productcard:hover .image {
@@ -81,8 +84,10 @@
 .product_images {
   display: flex;
   overflow-x: auto;
+  overflow-y: hidden;
   gap: 24px;
   padding-bottom: 8px;
+  overflow: hidden;
 }
 
 .product_images::-webkit-scrollbar {

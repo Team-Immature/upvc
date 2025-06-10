@@ -9,6 +9,7 @@ import ventilator from "../../assets/ventilator.webp";
 //img end
 
 import arrow from "../../assets/arro.png";
+import { Link } from "react-router-dom";
 
 //product card
 import ProductCard from "./ProductCard";
@@ -20,15 +21,24 @@ const WindowSection = () => {
   const handleSeeMore = () => {
     navigate(`/products#Window-heading-top`);
   };
+
   return (
     <div className='productSection'>
       <h2 className='product_heading'>Windows</h2>
       <div className='sec'>
         <div className='product_images'>
-          <ProductCard value='uPVC Sliding Windows' img={sliding} />
-          <ProductCard value='uPVC Casement Windows' img={casement} />
-          <ProductCard value='uPVC Fixed Windows' img={fixed} />
-          <ProductCard value='uPVC Ventilator Windows' img={ventilator} />
+          <Link to="/products#sliding-window">
+            <ProductCard value='uPVC Sliding Window' img={sliding} />
+          </Link>
+          <Link to="/products#casement-window">
+            <ProductCard value='uPVC Casement Windows' img={casement} />
+          </Link>
+          <Link to="/products#fixed-window">
+            <ProductCard value='uPVC Fixed Windows' img={fixed} />
+          </Link>
+          <Link to="/products#ventilator-window">
+            <ProductCard value='uPVC Ventilator Windows' img={ventilator} />
+          </Link>
         </div>
       </div>
 

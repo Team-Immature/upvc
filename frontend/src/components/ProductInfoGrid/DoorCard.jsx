@@ -11,7 +11,7 @@ const DoorCard = () => {
   return (
     <div className='max-w-7xl mx-auto mt-20 p-10 rounded-3xl bg-[linear-gradient(135deg,_#f0f4f8,_#d9e2ec)]'>
       {/* Sliding Door */}
-      <div className='  mx-auto my-8'>
+      <div id="sliding-door" className='max-w-5xl mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Sliding Door
@@ -115,7 +115,7 @@ const DoorCard = () => {
       </div>
 
       {/* Casement Door */}
-      <div className='  mx-auto my-8'>
+      <div id="casement-door" className='max-w-5xl mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Casement Door
@@ -206,7 +206,7 @@ const DoorCard = () => {
       </div>
 
       {/* French Door */}
-      <div className='  mx-auto my-8'>
+      <div id="french-door" className='max-w-5xl mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             French Door
@@ -301,7 +301,7 @@ const DoorCard = () => {
       </div>
 
       {/* slide & fold door */}
-      <div className='  mx-auto my-8'>
+      <div id="slidefold-door" className='max-w-5xl mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Slide and Fold Door
