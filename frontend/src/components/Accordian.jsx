@@ -44,7 +44,7 @@ const Accordian = () => {
     setFive(!five);
   };
   return (
-    <div className='max-w-7xl flex flex-col h-full w-full text-center justify-center group bg-[whitesmoke] rounded-2xl shadow-xl p-8'>
+    <div className='max-w-7xl flex flex-col h-full w-full text-center justify-center group bg-[whitesmoke] rounded-2xl shadow-xl p-8 hover:-translate-y-2 transition-all duration-300'>
       <h3
         className="text-[2.8rem] font-bold text-[#1b2a41] mx-auto mb-5 py-2 text-center relative w-fit cursor-pointer transition-transform duration-1000 
     ease-in-out group-hover:scale-105 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:-translate-x-1/2 after:scale-x-50 group-hover:after:scale-x-[5] 
