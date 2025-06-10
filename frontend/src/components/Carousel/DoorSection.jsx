@@ -6,7 +6,7 @@ import slidefoldD from "../../assets/slidefoldD.webp";
 import casementD from "../../assets/casementD.jpg";
 import arrow from "../../assets/arro.png";
 import { useNavigate } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 const DoorSection = () => {
   const navigate = useNavigate();
 
@@ -17,10 +17,20 @@ const DoorSection = () => {
     <div className='productSection'>
       <h2 className='product_heading'>Doors</h2>
       <div className='product_images'>
-        <ProductCard value='uPVC Sliding Door' img={slidingDoor} />
-        <ProductCard value='uPVC French Door' img={frenchDoor} />
-        <ProductCard value='uPVC Slide & Fold Door' img={slidefoldD} />
-        <ProductCard value='uPVC Casement Door' img={casementD} />
+        <Link to="/products#sliding-door">
+          <ProductCard value='uPVC Sliding Door' img={slidingDoor} />
+        </Link>
+        <Link to="/products#french-door">
+          <ProductCard value='uPVC French Door' img={frenchDoor} />
+        </Link>
+
+        <Link to="/products#sliding-door">
+          <ProductCard value='uPVC Slide & Fold Door' img={slidefoldD} />
+        </Link>
+
+        <Link to="/products#sliding-door">
+          <ProductCard value='uPVC Casement Door' img={casementD} />
+        </Link>
       </div>
 
       <div className='arrow'>
