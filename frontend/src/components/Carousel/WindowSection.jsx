@@ -18,7 +18,7 @@ const WindowSection = () => {
   const navigate = useNavigate();
 
   const handleSeeMore = () => {
-    navigate(`/products`);
+    navigate(`/products#Window-heading-top`);
   };
   return (
     <div className='productSection'>
