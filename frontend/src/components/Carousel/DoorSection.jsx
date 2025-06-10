@@ -17,20 +17,20 @@ const DoorSection = () => {
     <div className='productSection'>
       <h2 className='product_heading'>Doors</h2>
       <div className='product_images'>
-        <Link to="/products#sliding-door">
-          <ProductCard value='uPVC Sliding Door' img={slidingDoor} />
-        </Link>
-        <Link to="/products#french-door">
-          <ProductCard value='uPVC French Door' img={frenchDoor} />
-        </Link>
+        
+          <ProductCard path="/products#sliding-door" value='uPVC Sliding Door' img={slidingDoor} />
+        
+        
+          <ProductCard path="/products#french-door" value='uPVC French Door' img={frenchDoor} />
+        
 
-        <Link to="/products#sliding-door">
-          <ProductCard value='uPVC Slide & Fold Door' img={slidefoldD} />
-        </Link>
+        
+          <ProductCard path="/products#slidefold-door" value='uPVC Slide & Fold Door' img={slidefoldD} />
+        
 
-        <Link to="/products#sliding-door">
-          <ProductCard value='uPVC Casement Door' img={casementD} />
-        </Link>
+        
+          <ProductCard path="/products#casement-door" value='uPVC Casement Door' img={casementD} />
+        
       </div>
 
       <div className='arrow'>

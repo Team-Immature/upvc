@@ -27,18 +27,18 @@ const WindowSection = () => {
       <h2 className='product_heading'>Windows</h2>
       <div className='sec'>
         <div className='product_images'>
-          <Link to="/products#sliding-window">
-            <ProductCard value='uPVC Sliding Window' img={sliding} />
-          </Link>
-          <Link to="/products#casement-window">
-            <ProductCard value='uPVC Casement Windows' img={casement} />
-          </Link>
-          <Link to="/products#fixed-window">
-            <ProductCard value='uPVC Fixed Windows' img={fixed} />
-          </Link>
-          <Link to="/products#ventilator-window">
-            <ProductCard value='uPVC Ventilator Windows' img={ventilator} />
-          </Link>
+          
+            <ProductCard path="/products#sliding-window" value='uPVC Sliding Window' img={sliding} />
+          
+          
+            <ProductCard path="/products#casement-window" value='uPVC Casement Windows' img={casement} />
+          
+          
+            <ProductCard path="/products#fixed-window" value='uPVC Fixed Windows' img={fixed} />
+         
+          
+            <ProductCard path="/products#ventilator-window" value='uPVC Ventilator Windows' img={ventilator} />
+          
         </div>
       </div>
 
