@@ -5,9 +5,9 @@ import ProductSection from "./components/Carousel/ProductSection";
 import Feature from "./components/Feature/Feature";
 import Banner from "./components/Banner";
 import Footer from "./components/Footer/Footer";
-// import AddressDetailsLayout from "./components/AddressDetailsLayout";
+import EnquiryForm from "./components/EnquiryForm";
+import ban from '../src/assets/banner.webp';
 
-// import CustomerOrderForm from "./components/CustomerOrderForm/CustomerOrderForm";
 
 
 function Home() {
@@ -16,10 +16,12 @@ function Home() {
     <>
       <div className='app'>
         <NavBar />
-        <Banner />
+        <div className="relative">
+          <Banner banner={ban} />
+          <EnquiryForm />    
+        </div>
         <div className=' w-full md:h-[100px] h-[50px]'> </div>
         <ProductSection />
-       
         <Footer />
       </div>
     </>

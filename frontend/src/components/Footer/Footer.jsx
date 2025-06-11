@@ -4,7 +4,7 @@ import logo from "../../assets/r3.jpg";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className='bg-gradient-to-r from-gray-700 via-gray-600 to-gray-800  w-full text-gray-200 '>
+    <footer className='bg-gradient-to-r from-gray-900 from-5% via-gray-800 via-60% to-gray-950 to-85% w-full text-gray-200 '>
       <div className='max-w-7xl mx-auto px-4 py-6 flex flex-col md:flex-row justify-between md:items-start gap-6 md:gap-0 items-center text-center'>
         {/* Left Section - Logo or Image */}
         <div className='text-base '>
