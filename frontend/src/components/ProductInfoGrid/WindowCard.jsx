@@ -37,7 +37,7 @@ const WindowCard = () => {
             Sliding Window
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard className="cursor-default" value='uPVC Sliding Windows' img={sliding} />
+            <ProductCard className="cursor-default" value='uPVC Sliding Windows' img={sliding} clickable={false} />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             {/* About */}
@@ -141,7 +141,7 @@ const WindowCard = () => {
             Casement Window
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard className="cursor-default" value='uPVC Casement Windows' img={casement} />
+            <ProductCard className="cursor-default" value='uPVC Casement Windows' img={casement} clickable={false} />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
@@ -238,7 +238,7 @@ const WindowCard = () => {
             Fixed Window
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard className="cursor-default" value='uPVC Fixed Windows' img={fixed} />
+            <ProductCard className="cursor-default" value='uPVC Fixed Windows' img={fixed} clickable={false}/>
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
@@ -336,7 +336,7 @@ const WindowCard = () => {
             Ventilator Window
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard className="cursor-default" value='uPVC Ventilator Windows' img={ventilator} />
+            <ProductCard className="cursor-default" value='uPVC Ventilator Windows' img={ventilator} clickable={false} />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
