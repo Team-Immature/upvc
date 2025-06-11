@@ -8,7 +8,7 @@ const GlazingCard = (props) => {
         bg-white rounded-[16px] shadow-[0_8px_16px_rgba(0,0,0,0.12)]
         p-5 w-full h-full
         transition-transform duration-300 ease-in-out
-        hover:-translate-y-2 hover:shadow-2xl cursor-pointer
+        hover:-translate-y-2 hover:shadow-2xl cursor-default
       "
     >
       <img
