@@ -29,13 +29,14 @@ const WindowCard = () => {
   return (
     <div className='max-w-7xl mx-auto mt-20 p-10 rounded-3xl bg-[linear-gradient(135deg,_#f0f4f8,_#d9e2ec)]'>
       {/* Sliding Window */}
-      <div id='sliding-window' className=' mx-auto my-8'>
+      <div id='sliding-window' className="h-10 mb-6" ></div>
+      <div className=' mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Sliding Window
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard value='uPVC Sliding Windows' img={sliding} />
+            <ProductCard className="cursor-default" value='uPVC Sliding Windows' img={sliding} />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             {/* About */}
@@ -134,13 +135,14 @@ const WindowCard = () => {
       </div>
 
       {/* Casement Window */}
-      <div id='casement-window' className=' mx-auto my-8'>
+      <div id='casement-window' className="h-10 mb-6" ></div>
+      <div className=' mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Casement Window
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard value='uPVC Casement Windows' img={casement} />
+            <ProductCard className="cursor-default" value='uPVC Casement Windows' img={casement} />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
@@ -232,13 +234,14 @@ const WindowCard = () => {
       </div>
 
       {/* Fixed Window */}
-      <div id='fixed-window' className=' mx-auto my-8'>
+      <div id='fixed-window' className="h-10 mb-6" ></div>
+      <div className=' mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Fixed Window
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard value='uPVC Fixed Windows' img={fixed} />
+            <ProductCard className="cursor-default" value='uPVC Fixed Windows' img={fixed} />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
@@ -331,13 +334,14 @@ const WindowCard = () => {
       </div>
 
       {/* Ventilator Window */}
-      <div id='ventilator-window' className=' mx-auto my-8'>
+      <div id='ventilator-window' className="h-10 mb-6" ></div>
+      <div className=' mx-auto my-8'>
         <div className='flex flex-col mb-8 rounded-[20px] bg-gradient-to-br from-white to-[whitesmoke] shadow-[0_10px_30px_rgba(0,0,0,0.1)] overflow-hidden transition-transform duration-300 hover:-translate-y-2'>
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Ventilator Window
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard value='uPVC Ventilator Windows' img={ventilator} />
+            <ProductCard className="cursor-default" value='uPVC Ventilator Windows' img={ventilator} />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
