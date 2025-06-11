@@ -66,8 +66,6 @@
   object-fit: contain;
   border-radius: 12px;
   margin-bottom: 12px;
-  max-height: 100%;
-  max-width: 100%;
   
 }
 
@@ -83,11 +81,10 @@
 /* ==== PRODUCT SCROLL CONTAINER ==== */
 .product_images {
   display: flex;
-  overflow-x: auto;
-  overflow-y: hidden;
+  overflow-x: auto;       
+  overflow-y: hidden;    
   gap: 24px;
   padding-bottom: 8px;
-  overflow: hidden;
 }
 
 .product_images::-webkit-scrollbar {
@@ -98,6 +95,7 @@
   background-color: #888;
   border-radius: 3px;
 }
+
 
 /* ==== HEADING ==== */
 .product_heading {
@@ -215,7 +213,7 @@
     flex-direction: column;
 
     gap: 20px;
-    padding: 0;
+    
   }
 
   .productcard {
@@ -227,7 +225,7 @@
 
   .productcard .image {
     height: 200px;
-    width: 100%;
+    width: 324px;
     max-width: 100%;
   }
 
