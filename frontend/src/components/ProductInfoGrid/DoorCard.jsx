@@ -19,7 +19,7 @@ const DoorCard = () => {
             Sliding Door
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard className="cursor-default" value='uPVC Sliding Doors' img={slidingDoor} />
+            <ProductCard className="cursor-default" value='uPVC Sliding Doors' img={slidingDoor} clickable={false}/>
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             {/* About */}
@@ -122,7 +122,7 @@ const DoorCard = () => {
             Casement Door
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard className="cursor-default" value='uPVC Casement Doors' img={casementD} />
+            <ProductCard className="cursor-default" value='uPVC Casement Doors' img={casementD} clickable={false}/>
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
@@ -212,7 +212,7 @@ const DoorCard = () => {
             French Door
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard className="cursor-default" value='uPVC French Doors' img={frenchDoor} />
+            <ProductCard className="cursor-default" value='uPVC French Doors' img={frenchDoor} clickable={false}/>
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
@@ -306,7 +306,7 @@ const DoorCard = () => {
             Slide and Fold Door
           </h1>
           <div className='flex justify-center mb-4'>
-            <ProductCard className="cursor-default" value='uPVC Slide & Fold Doors' img={slidefoldD} />
+            <ProductCard className="cursor-default" value='uPVC Slide & Fold Doors' img={slidefoldD} clickable={false}/>
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>

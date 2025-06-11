@@ -19,7 +19,6 @@ function Home() {
         <Banner />
         <div className=' w-full md:h-[100px] h-[50px]'> </div>
         <ProductSection />
-        {/* <AddressDetailsLayout /> */}
        
         <Footer />
       </div>
