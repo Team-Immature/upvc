@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const[openPopup , setPopup] = useState(false); 
+  const [openPopup, setPopup] = useState(false);
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
-    <header className='sticky top-0 z-50 flex items-center justify-between px-4 py-3 bg-gradient-to-r   from-gray-900 from-5% via-gray-800 via-60% to-gray-950 to-85%'>
+    <header className='sticky top-0 z-50 flex items-center justify-between px-4 py-3 bg-gradient-to-r   from-gray-900 from-5% via-gray-800 via-60% to-gray-950 to-85%'>
       <Link to='/' className='text-2xl font-bold text-white uppercase'>
         <img
           className='w-[40px] h-[40px] hover:cursor-pointer rounded-lg'
@@ -18,12 +18,11 @@ const NavBar = () => {
         />
       </Link>
 
-      
       <button
         className='text-white text-3xl md:hidden focus:outline-none'
         onClick={toggleMenu}
       >
-        {isMenuOpen ? '✖' : '☰'}
+        {isMenuOpen ? "✖" : "☰"}
       </button>
 
       {/* Navigation Links */}
@@ -57,13 +56,11 @@ const NavBar = () => {
           Contact Us
         </Link>
 
-       
         <button className='md:hidden mt-2 mb-3 px-5 py-2 bg-gray-200 text-gray-900 rounded-md hover:bg-black hover:text-white cursor:pointer transition-all hover:scale-105 duration-300'>
           Enquire Now
         </button>
       </nav>
 
-      
       <button className='hidden md:block px-5 py-2 bg-gray-200 text-gray-900 rounded-md hover:bg-black hover:text-white transition-all hover:scale-105 cursor:pointer duration-300'>
         Enquire Now
       </button>
