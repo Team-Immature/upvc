@@ -4,6 +4,7 @@ import slidingDoor from "../../assets/slidingDoor.webp";
 import frenchDoor from "../../assets/frenchDoor.webp";
 import slidefoldD from "../../assets/slidefoldD.webp";
 import casementD from "../../assets/casementD.jpg";
+import ButtonWithPopup from "./ButtonWithPopUp";
 
 import { Link } from "react-scroll";
 
@@ -74,9 +75,7 @@ const DoorCard = () => {
                   home’s style. We offer a wide range of colours, including Milk
                   White, Dark Grey Metal, Black, Oak, Walnut, and more.
                 </p>
-                <button className='mx-auto mt-4 block bg-blue-600 hover:cursor-pointer text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
-                  See more
-                </button>
+                <ButtonWithPopup />
               </div>
               <div className='bg-white rounded-lg shadow-sm p-4 flex flex-col items-center'>
                 <h2 className='text-lg font-semibold mb-2 text-blue-900'>
@@ -166,9 +165,7 @@ const DoorCard = () => {
                   Customize your windows to match your home’s style. Options:
                   Milk White, Dark Grey Metal, Black, Oak, Walnut, and more.
                 </p>
-                <button className='mx-auto mt-4 block bg-blue-600 hover:cursor-pointer text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
-                  See more
-                </button>
+                <ButtonWithPopup />
               </div>
               <div className='bg-white rounded-lg shadow-sm p-4 flex flex-col items-center'>
                 <h2 className='text-lg font-semibold mb-2 text-blue-900'>
@@ -262,9 +259,7 @@ const DoorCard = () => {
                   home’s style. We offer a wide range of colours, including Milk
                   White, Dark Grey Metal, Black, Oak, Walnut, and more.
                 </p>
-                <button className='mx-auto mt-4 block bg-blue-600 hover:cursor-pointer text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
-                  See more
-                </button>
+                <ButtonWithPopup />
               </div>
               <div className='bg-white rounded-lg shadow-sm p-4 flex flex-col items-center'>
                 <h2 className='text-lg font-semibold mb-2 text-blue-900'>
@@ -358,9 +353,7 @@ const DoorCard = () => {
                   home’s style. We offer a wide range of colours, including Milk
                   White, Dark Grey Metal, Black, Oak, Walnut, and more.
                 </p>
-                <button className='mx-auto mt-4 block bg-blue-600 hover:cursor-pointer text-white py-2 px-6 rounded-full font-semibold shadow transition hover:bg-blue-700 hover:-translate-y-1 duration-200'>
-                  See more
-                </button>
+                <ButtonWithPopup />
               </div>
               <div className='bg-white rounded-lg shadow-sm p-4 flex flex-col items-center'>
                 <h2 className='text-lg font-semibold mb-2 text-blue-900'>
