@@ -7,8 +7,8 @@ const ScrollToTopOfThePage = () => {
   };
   const scrollBackToTop = () => {
     const scroll = window.scrollY;
-    console.log("Scrolled:", scroll);
-    if (scroll > 4000) {
+    // console.log("Scrolled:", scroll);
+    if (scroll > 1500) {
       setShow(true);
     } else {
       setShow(false);
