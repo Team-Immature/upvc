@@ -34,11 +34,11 @@ const DoorSection = () => {
       </div>
 
       <div className='arrow'>
-        <h2 className='arrowHeading'>See More</h2>
-        <button onClick={handleSeeMore} className='see_more bg-none'>
-          <img className='aimg' src={arrow} alt='' />
-        </button>
-      </div>
+              <button onClick={handleSeeMore} className='see_more flex items-center gap-2'>
+                <h2 className='arrowHeading whitespace-nowrap'>See More</h2>
+                <img className='aimg' src={arrow} alt='' />
+              </button>
+            </div>
     </div>
   );
 };
