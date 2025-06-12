@@ -1,6 +1,6 @@
 import React from "react";
 import EnquiryForm from "./EnquiryForm";
-
+import { MdExpandCircleDown } from "react-icons/md";
 const Banner = (props) => {
   return (
     <div className=''>
@@ -10,6 +10,7 @@ const Banner = (props) => {
           className='absolute inset-0 w-full h-full object-cover object-left'
         />
         <EnquiryForm tcss='absolute top-1  right-10 z-20' />
+        <MdExpandCircleDown className='hidden sm:block absolute top-11/12 left-1/2 size-10 text-white animate-bounce rounded-full border-none' />
       </div>
     </div>
   );
