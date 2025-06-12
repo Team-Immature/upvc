@@ -1,7 +1,7 @@
 // Make sure to run: npm install @formspree/react
 import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
-
+import { TiTick } from "react-icons/ti";
 const EnquiryForm = (props) => {
   const [state, handleSubmit] = useForm("mldnbgeb");
 
@@ -11,6 +11,7 @@ const EnquiryForm = (props) => {
         className={`bg-white text-black p-6 rounded-lg max-w-md mx-auto mt-10 text-center ${props.tcss}`}
       >
         <h2 className='text-2xl font-bold mb-2'>Thank you!</h2>
+        <TiTick className='border border-green-300 text-green-300 items-center mx-auto m-5 size-10 rounded-full opacity-75' />
         <p>
           Your enquiry was submitted successfully. We will contact you soon.
         </p>
