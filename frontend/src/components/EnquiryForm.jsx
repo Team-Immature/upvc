@@ -36,7 +36,7 @@ const EnquiryForm = (props) => {
             name='name'
             placeholder='Enter your full name'
             required
-            className='bg-transparent outline-none border-0 border-b-2 border-blue-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
+            className='bg-transparent outline-none border-0 border-b-2 border-gray-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
           />
           <ValidationError prefix='Name' field='name' errors={state.errors} />
         </div>
@@ -47,7 +47,7 @@ const EnquiryForm = (props) => {
             name='phone'
             placeholder='Enter your phone number'
             required
-            className='bg-transparent outline-none border-0 border-b-2 border-blue-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
+            className='bg-transparent outline-none border-0 border-b-2 border-gray-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
           />
           <ValidationError prefix='Phone' field='phone' errors={state.errors} />
         </div>
@@ -58,7 +58,7 @@ const EnquiryForm = (props) => {
             name='email'
             placeholder='Enter your email address'
             required
-            className='bg-transparent outline-none border-0 border-b-2 border-blue-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
+            className='bg-transparent outline-none border-0 border-b-2 border-gray-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
           />
           <ValidationError prefix='Email' field='email' errors={state.errors} />
         </div>
@@ -69,7 +69,7 @@ const EnquiryForm = (props) => {
             name='area'
             placeholder='Enter your local area or street'
             required
-            className='bg-transparent outline-none border-0 border-b-2 border-blue-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
+            className='bg-transparent outline-none border-0 border-b-2 border-gray-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
           />
           <ValidationError prefix='Area' field='area' errors={state.errors} />
         </div>
@@ -80,7 +80,7 @@ const EnquiryForm = (props) => {
             name='city'
             placeholder='Enter your city name'
             required
-            className='bg-transparent outline-none border-0 border-b-2 border-blue-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
+            className='bg-transparent outline-none border-0 border-b-2 border-gray-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
           />
           <ValidationError prefix='City' field='city' errors={state.errors} />
         </div>
@@ -91,7 +91,7 @@ const EnquiryForm = (props) => {
             name='pincode'
             placeholder='Enter your area pincode'
             required
-            className='bg-transparent outline-none border-0 border-b-2 border-blue-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
+            className='bg-transparent outline-none border-0 border-b-2 border-gray-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full shadow-sm'
           />
           <ValidationError
             prefix='Pincode'
@@ -105,7 +105,7 @@ const EnquiryForm = (props) => {
             name='requirements'
             placeholder='e.g. 4 windows and 2 doors'
             required
-            className='bg-transparent outline-none border-0 border-b-2 border-blue-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full h-23 resize-none shadow-sm'
+            className='bg-transparent outline-none border-0 border-b-2 border-gray-500 rounded-sm px-2 py-2 placeholder-gray-500 w-full h-23 resize-none shadow-sm'
           ></textarea>
           <ValidationError
             prefix='Requirements'
@@ -116,7 +116,7 @@ const EnquiryForm = (props) => {
         <button
           type='submit'
           disabled={state.submitting}
-          className='mt-4 bg-gradient-to-r from-gray-900 from-5% via-gray-800 via-60% to-gray-950 *:to-85% text-white py-2 rounded hover:bg-blue-700 transition'
+          className='mt-2 bg-black hover:bg-black/80 active:scale-90   text-white py-2 rounded hover:cursor-pointer hover:-translate-y-2  transition-all duration-300 animate-pulse'
         >
           {state.submitting ? "Submitting..." : "Book a Visit"}
         </button>
