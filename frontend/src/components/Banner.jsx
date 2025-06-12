@@ -17,7 +17,7 @@ const Banner = (props) => {
         />
         <EnquiryForm tcss='absolute top-1  right-10 z-20' />
         {loc.pathname == "/" && (
-          <MdExpandCircleDown className='hidden sm:block absolute top-11/12 left-1/2 size-10 text-white animate-bounce rounded-full border-none' />
+          <MdExpandCircleDown className='hidden md:block absolute top-3/4 2xl:top-10/12 left-1/2 size-10 text-white animate-bounce rounded-full border-none' />
         )}
       </div>
     </div>
