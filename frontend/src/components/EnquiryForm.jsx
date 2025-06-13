@@ -22,7 +22,7 @@ const EnquiryForm = (props) => {
 
   return (
     <div
-      className={` ${props.tcss} bg-[whitesmoke] p-4 sm:p-6 rounded-lg shadow-md w-full max-w-md mx-auto`}
+      className={` ${props.tcss} bg-[whitesmoke] p-4 sm:p-6 rounded-lg shadow-md w-full max-w-md mx-auto `}
     >
       <h1 className='text-center text-3xl font-bold text-[#1b2a41] mb-2'>
         RS Enterprises
