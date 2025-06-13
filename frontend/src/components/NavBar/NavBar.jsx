@@ -10,12 +10,13 @@ const NavBar = () => {
 
   return (
     <header className='sticky top-0 z-50 flex items-center justify-between px-4 py-3 bg-gradient-to-r   from-gray-900 from-5% via-gray-800 via-60% to-gray-950 to-85%'>
-      <Link to='/' className='text-2xl font-bold text-white uppercase'>
+      <Link to='/' className='sm:text-2xl text-xl flex items-center gap-4 font-bold text-white '>
         <img
           className='w-[40px] h-[40px] hover:cursor-pointer rounded-lg'
           src={logo}
           alt='logo'
         />
+        <p>RS Enterprises</p>
       </Link>
 
       <button
@@ -27,9 +28,8 @@ const NavBar = () => {
 
       {/* Navigation Links */}
       <nav
-        className={`${
-          isMenuOpen ? "flex" : "hidden"
-        } absolute top-full left-0 w-full flex-col items-center bg-gray-800 md:static md:flex md:flex-row md:w-auto md:space-x-6 md:bg-transparent`}
+        className={`${isMenuOpen ? "flex" : "hidden"
+          } absolute top-full left-0 w-full flex-col items-center bg-gray-800 md:static md:flex md:flex-row md:w-auto md:space-x-6 md:bg-transparent`}
       >
         <Link
           to='/'
