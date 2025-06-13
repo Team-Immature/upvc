@@ -9,23 +9,24 @@ import OurWork from "./OurWork.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import ScrollToTopOfThePage from "./components/ScrollToTopOfThePage.jsx";
 import WhatsappIcon from "./components/WhatsappIcon/WhatsappIcon.jsx";
+import PopUpForm from "./components/PopUpForm.jsx";
 
 // import ScrollToTop from './components/scrollToTop.jsx';
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-    <BrowserRouter>
-    
-      <ScrollToTop />
-      <ScrollToTopOfThePage />
+  // <StrictMode>
+  <BrowserRouter>
+    <ScrollToTop />
+    <ScrollToTopOfThePage />
 
-      <WhatsappIcon />
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/products' element={<Products />} />
-        <Route path='/work' element={<OurWork />} />
-      </Routes>
-    </BrowserRouter>
-    {/* <App /> */}
-  </StrictMode>
+    <WhatsappIcon />
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/contact' element={<Contact />} />
+      <Route path='/products' element={<Products />} />
+      <Route path='/work' element={<OurWork />} />
+      <Route path='/popup' element={<PopUpForm />}></Route>
+    </Routes>
+  </BrowserRouter>
+  // {/* <App /> */}
+  // </StrictMode>
 );
