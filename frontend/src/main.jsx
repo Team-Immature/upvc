@@ -8,12 +8,17 @@ import Products from "./Products.jsx";
 import OurWork from "./OurWork.jsx";
 import ScrollToTop from "./components/ScrollToTop.jsx";
 import ScrollToTopOfThePage from "./components/ScrollToTopOfThePage.jsx";
+import WhatsappIcon from "./components/WhatsappIcon/WhatsappIcon.jsx";
+
 // import ScrollToTop from './components/scrollToTop.jsx';
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <BrowserRouter>
+    
       <ScrollToTop />
       <ScrollToTopOfThePage />
+
+      <WhatsappIcon />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />
