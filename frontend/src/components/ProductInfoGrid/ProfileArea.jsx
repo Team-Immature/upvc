@@ -1,6 +1,7 @@
 import React from "react";
 // import ProfileSeries from "./SixtySeries";
-import SixtySeries from "./SixtySeries";
+import SixtySeries from "./SeriesTemplate";
+import CompleteSeriesCard from "./CompleteSeriesCard";
 
 const ProfileArea = () => {
   return (
@@ -34,7 +35,7 @@ const ProfileArea = () => {
           systems.
         </p>
 
-        <SixtySeries />
+        <CompleteSeriesCard />
       </div>
     </div>
   );
