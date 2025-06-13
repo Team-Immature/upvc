@@ -10,13 +10,11 @@ const PopUpForm = ({ setShowForm }) => {
   };
   return (
     <div className='fixed  inset-0  bg-black/30 backdrop-blur-xl bg-opacity-50 z-50 flex justify-center items-center overflow-y-auto '>
-      <div className='relative rounded-xl bg-gray-500 p-2 mt-10'>
-        <div className='w-[320px] md:w-[420px] lg:w-[480px] h-auto flex  justify-end items-center py-2 pr-0.5 hover:cursor-pointer'>
-          <IoCloseSharp
-            onClick={navigateBack}
-            className='absolute size-6 top-8 right-4 text-black  border border-black rounded-full'
-          />
-        </div>
+      <div className='relative rounded-xl bg-gray-500 p-1 mt-10 w-[320px] md:w-[420px] lg:w-[480px]'>
+        <IoCloseSharp
+          onClick={navigateBack}
+          className='absolute size-6 top-4 right-4 text-black  border border-black rounded-full hover:cursor-pointer'
+        />
         <EnquiryForm />
       </div>
     </div>
