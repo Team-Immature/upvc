@@ -29,17 +29,6 @@ const WindowCard = () => {
     }
   }, [location]);
 
-  const [showForm, setShowForm] = useState(false);
-  const [count, setCount] = useState(0);
-  const popupFunction = () => {
-    setShowForm((prev) => {
-      console.log("New value will be:", !prev);
-      return !prev;
-    });
-
-    setCount((count) => count + 1);
-    console.log(count);
-  };
   return (
     <div className='max-w-7xl mx-auto mt-20 p-10 rounded-3xl bg-[linear-gradient(135deg,_#f0f4f8,_#d9e2ec)]'>
       {/* Sliding Window */}
@@ -56,8 +45,7 @@ const WindowCard = () => {
               img={sliding}
               clickable={false}
             />
-            <EnquireNowButton onClick={popupFunction} className='' />
-            {showForm && <PopUpForm setShowForm={setShowForm} />}
+            <EnquireNowButton className='' />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             {/* About */}
