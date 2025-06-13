@@ -10,6 +10,7 @@ import { Link } from "react-scroll";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import ButtonWithPopup from "./ButtonWithPopUp";
+import EnquireNowButton from "../EnquireNowButton";
 
 const WindowCard = () => {
   const location = useLocation();
@@ -36,8 +37,9 @@ const WindowCard = () => {
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Sliding Window
           </h1>
-          <div className='flex justify-center mb-4'>
+          <div className='flex flex-col justify-center items-center mb-4'>
             <ProductCard className="cursor-default" value='uPVC Sliding Windows' img={sliding} clickable={false} />
+            <EnquireNowButton />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             {/* About */}
@@ -140,8 +142,9 @@ const WindowCard = () => {
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Casement Window
           </h1>
-          <div className='flex justify-center mb-4'>
+          <div className='flex flex-col justify-center items-center mb-4'>
             <ProductCard className="cursor-default" value='uPVC Casement Windows' img={casement} clickable={false} />
+            <EnquireNowButton />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
@@ -237,8 +240,9 @@ const WindowCard = () => {
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Fixed Window
           </h1>
-          <div className='flex justify-center mb-4'>
+          <div className='flex flex-col items-center justify-center mb-4'>
             <ProductCard className="cursor-default" value='uPVC Fixed Windows' img={fixed} clickable={false}/>
+            <EnquireNowButton />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
@@ -335,8 +339,9 @@ const WindowCard = () => {
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Ventilator Window
           </h1>
-          <div className='flex justify-center mb-4'>
+          <div className='flex flex-col justify-center items-center mb-4'>
             <ProductCard className="cursor-default" value='uPVC Ventilator Windows' img={ventilator} clickable={false} />
+            <EnquireNowButton />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
