@@ -7,6 +7,7 @@ import casementD from "../../assets/casementD.jpg";
 import ButtonWithPopup from "./ButtonWithPopUp";
 
 import { Link } from "react-scroll";
+import EnquireNowButton from "../EnquireNowButton";
 
 const DoorCard = () => {
   return (
@@ -18,8 +19,9 @@ const DoorCard = () => {
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Sliding Door
           </h1>
-          <div className='flex justify-center mb-4'>
+          <div className='flex flex-col justify-center items-center mb-4'>
             <ProductCard className="cursor-default" value='uPVC Sliding Doors' img={slidingDoor} clickable={false}/>
+            <EnquireNowButton />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             {/* About */}
@@ -121,8 +123,9 @@ const DoorCard = () => {
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Casement Door
           </h1>
-          <div className='flex justify-center mb-4'>
+          <div className='flex flex-col justify-center items-center mb-4'>
             <ProductCard className="cursor-default" value='uPVC Casement Doors' img={casementD} clickable={false}/>
+            <EnquireNowButton />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
@@ -211,8 +214,9 @@ const DoorCard = () => {
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             French Door
           </h1>
-          <div className='flex justify-center mb-4'>
+          <div className='flex flex-col justify-center items-center mb-4'>
             <ProductCard className="cursor-default" value='uPVC French Doors' img={frenchDoor} clickable={false}/>
+            <EnquireNowButton />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
@@ -305,8 +309,9 @@ const DoorCard = () => {
           <h1 className='text-center text-2xl md:text-3xl font-bold text-gray-800 mt-6 mb-2 tracking-tight'>
             Slide and Fold Door
           </h1>
-          <div className='flex justify-center mb-4'>
+          <div className='flex flex-col justify-center items-center mb-4'>
             <ProductCard className="cursor-default" value='uPVC Slide & Fold Doors' img={slidefoldD} clickable={false}/>
+            <EnquireNowButton />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             <div>
