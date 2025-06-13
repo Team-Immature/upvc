@@ -1,12 +1,13 @@
 // NavBar.jsx
 import React, { useState } from "react";
 import logo from "../../assets/r3.jpg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [openPopup, setPopup] = useState(false);
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const navigate = useNavigate();
 
   return (
     <header className='sticky top-0 z-50 flex items-center justify-between px-4 py-3 bg-gradient-to-r   from-gray-900 from-5% via-gray-800 via-60% to-gray-950 to-85%'>
@@ -61,7 +62,10 @@ const NavBar = () => {
         </button>
       </nav>
 
-      <button className='hidden md:block px-5 py-2 bg-white text-gray-900 rounded-md hover:bg-gray-200 hover:text-gray-800  transition-all hover:-translate-y-1 hover:cursor-pointer duration-300 animate-none'>
+      <button
+        onClick={() => navigate("/popup")}
+        className='hidden md:block px-5 py-2 bg-white text-gray-900 rounded-md hover:bg-gray-200 hover:text-gray-800  transition-all hover:-translate-y-1 hover:cursor-pointer duration-300 animate-none'
+      >
         Enquire Now
       </button>
     </header>
