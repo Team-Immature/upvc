@@ -45,7 +45,7 @@ const WindowCard = () => {
               img={sliding}
               clickable={false}
             />
-            <EnquireNowButton className='' />
+            <EnquireNowButton />
           </div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-8 px-6 pb-8'>
             {/* About */}
