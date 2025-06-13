@@ -5,6 +5,11 @@ import { useCallback } from "react";
 import { MdOutlineNavigateNext } from "react-icons/md";
 import { IoIosArrowBack } from "react-icons/io";
 import Autoplay from "embla-carousel-autoplay";
+import work1 from '../assets/work1.jpg';
+import work2 from '../assets/work2.jpg';
+import work3 from '../assets/work3.jpg';
+import work4 from '../assets/work4.jpg';
+
 export function WorkCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()]);
 
@@ -23,13 +28,16 @@ export function WorkCarousel() {
       >
         <div className='embla__container flex flex-row h-full rounded-xl'>
           <div className='embla__slide flex justify-center items-center h-full min-w-full bg-gray-600 rounded-xl mx-2'>
-            Slide 1
+            <img src={work1} alt="" />
           </div>
           <div className='embla__slide flex justify-center items-center h-full min-w-full bg-gray-600 rounded-xl mx-2'>
-            Slide 2
+            <img src={work2} alt="" />
           </div>
           <div className='embla__slide flex justify-center items-center h-full min-w-full bg-gray-600 rounded-xl mx-2'>
-            Slide 3
+            <img src={work3} alt="" />
+          </div>
+          <div className='embla__slide flex justify-center items-center h-full min-w-full bg-gray-600 rounded-xl mx-2'>
+            <img src={work4} alt="" />
           </div>
         </div>
       </div>
