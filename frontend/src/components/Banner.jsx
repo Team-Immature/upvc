@@ -34,7 +34,7 @@ const Banner = (props) => {
           src={props.banner}
           className='absolute inset-0 w-full h-full object-cover object-left'
         />
-        <EnquiryForm tcss='absolute top-1  right-10 z-20' />
+        <EnquiryForm tcss='absolute top-1  right-10 z-20 hidden lg:flex flex-col  relative md:absolute' />
         {loc.pathname == "/" && (
           <MdExpandCircleDown
             onClick={navigateTo}
