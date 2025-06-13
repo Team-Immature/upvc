@@ -57,7 +57,10 @@ const NavBar = () => {
           Contact Us
         </Link>
 
-        <button className='md:hidden mt-2 mb-3 px-5 py-2 bg-gray-200 text-gray-900 rounded-md hover:bg-black hover:text-white cursor:pointer transition-all hover:scale-105 duration-300'>
+        <button
+          onClick={() => navigate("/popup")}
+          className='md:hidden mt-2 mb-3 px-5 py-2 bg-gray-200 text-gray-900 rounded-md hover:bg-black hover:text-white cursor:pointer transition-all hover:scale-105 duration-300'
+        >
           Enquire Now
         </button>
       </nav>
