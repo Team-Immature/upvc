@@ -19,7 +19,7 @@ function Home() {
         <NavBar />
         <Banner banner={ban} />
         <div id='hero-section-top' className='h-10 mb-6'></div>
-        <div className=' block lg:hidden'>
+        <div className=' block lg:hidden -mt-30 mb-5 px-5'>
           <EnquiryForm />
         </div>
         <ProductSection />
