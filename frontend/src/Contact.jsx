@@ -3,13 +3,12 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import AddressDetailsLayout from "./components/AddressDetailsLayout";
 import Banner from "./components/Banner";
-// import EnquiryForm from "./components/EnquiryForm";
-import contactban from './assets/contactban.png';
+import bannerContact from './assets/bancont.png';
 const Contact = () => {
   return (
     <div>
       <NavBar />
-      <Banner banner={contactban} />
+      <Banner banner={bannerContact} />
       <AddressDetailsLayout />
       <Footer />
     </div>

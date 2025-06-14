@@ -42,10 +42,10 @@ const Banner = (props) => {
           />
         )}
         <div className='absolute left-0 right-0 top-0 bottom-0 w-full h-full  bg-black/10 backdrop-blur-xs flex flex-col justify-center items-center'>
-          <h1 className='text-xl md:text-3xl lg:text-5xl xl:text-7xl 2xl:text-8xl text-white mx-auto lg:ml-10 lg:mb-10 font-semibold text-shadow-2xs text-center'>
+          <h1 className='text-2xl md:text-3xl lg:text-5xl xl:text-7xl 2xl:text-8xl text-black mx-auto lg:ml-10 lg:mb-10 font-semibold text-shadow-2xs text-center'>
             Designed for Comfort.
           </h1>
-          <h1 className='text-xl md:text-3xl lg:text-5xl xl:text-7xl 2xl:text-8xl text-white mx-auto lg:ml-10 lg:mb-10 font-semibold text-shadow-2xs text-center'>
+          <h1 className='text-2xl md:text-3xl lg:text-5xl xl:text-7xl 2xl:text-8xl text-black mx-auto lg:ml-10 lg:mb-10 font-semibold text-shadow-2xs text-center'>
             Built to Last.
           </h1>
         </div>
