@@ -42,7 +42,7 @@ const WhatsappIcon = () => {
       className="fixed left-5 z-50 transition-all duration-300"
       style={{ bottom: `${bottomOffset}px` }}
     >
-      <a href="http://wa.me/+8639685573" target="_blank">
+      <a href="http://wa.me/+9594189833" target="_blank">
         <button className="p-1 rounded-full shadow-lg hover:bg-blue-700 bg-none">
         <img
           src={Whatsapp}

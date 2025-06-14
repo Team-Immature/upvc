@@ -9,6 +9,12 @@ import work1 from '../assets/work1.jpg';
 import work2 from '../assets/work2.jpg';
 import work3 from '../assets/work3.jpg';
 import work4 from '../assets/work4.jpg';
+import work5 from '../assets/work5.jpg';
+import work6 from '../assets/work6.jpg';
+import work7 from '../assets/work7.jpg';
+import work8 from '../assets/work8.jpg';
+import work9 from '../assets/work9.jpg';
+import work10 from '../assets/work10.jpg';
 
 export function WorkCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true }, [Autoplay()]);
@@ -38,6 +44,24 @@ export function WorkCarousel() {
           </div>
           <div className='embla__slide flex justify-center items-center h-full min-w-full bg-gray-600 rounded-xl mx-2'>
             <img src={work4} alt="" />
+          </div>
+          <div className='embla__slide flex justify-center items-center h-full min-w-full bg-gray-600 rounded-xl mx-2'>
+            <img src={work5} alt="" />
+          </div>
+          <div className='embla__slide flex justify-center items-center h-full min-w-full bg-gray-600 rounded-xl mx-2'>
+            <img src={work6} alt="" />
+          </div>
+          <div className='embla__slide flex justify-center items-center h-full min-w-full bg-gray-600 rounded-xl mx-2'>
+            <img src={work7} alt="" />
+          </div>
+          <div className='embla__slide flex justify-center items-center h-full min-w-full bg-gray-600 rounded-xl mx-2'>
+            <img src={work8} alt="" />
+          </div>
+          <div className='embla__slide flex justify-center items-center h-full min-w-full bg-gray-600 rounded-xl mx-2'>
+            <img src={work9} alt="" />
+          </div>
+          <div className='embla__slide flex justify-center items-center h-full min-w-full bg-gray-600 rounded-xl mx-2'>
+            <img src={work10} alt="" />
           </div>
         </div>
       </div>

@@ -13,7 +13,7 @@ const AddressDetailsLayout = () => {
           {/* phone number div */}
           <div className='flex flex-row  space-x-4 mt-10'>
             <FaPhone className='size-4 md:size-5 mr-2 my-auto' />
-            <h1 className='text-sm md:text-lg :'>+91 8639685573</h1>
+            <h1 className='text-sm md:text-lg :'>+91 8500696195</h1>
           </div>
           {/* email div */}
           <div className='flex flex-row space-x-4 mt-5'>
