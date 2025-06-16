@@ -21,7 +21,7 @@ const ButtonWithPopup = () => {
       </button>
 
       {showPopup && (
-        <div className='absolute top-full mt-2 left-1/2 -translate-x-1/2 w-[90vw] max-w-lg sm:w-64 bg-[linear-gradient(135deg,_#f0f4f8,_#d9e2ec)] text-gray-800 p-4 rounded-lg shadow-lg border border-gray-200 z-10'>
+        <div className='absolute top-full mt-2 left-1/2 -translate-x-1/2 w-[300px]  bg-white/20 backdrop-blur-md text-gray-800 p-4 rounded-lg shadow-lg border border-gray-200 z-10'>
           <h4 className='font-semibold text-lg mb-2'>Available Colors</h4>
           <div className='grid grid-cols-2 gap-4'>
             {colors.map(({ name, color }) => (
