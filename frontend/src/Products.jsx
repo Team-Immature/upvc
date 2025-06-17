@@ -15,7 +15,7 @@ const Products = () => {
     <div className=''>
       <div
         onClick={toggleTOC}
-        className='fixed  z-40  my-auto bottom-35 right-11 w-10 h-10 md:h-12 md:w-12 xl:h-14 xl:w-14 ring-black/5 hover:-translate-y-2 transition-all duration-300 hover:cursor-pointer   border  border-gray-900 bg-gray-100 rounded-full p-2 flex justify-center items-center'
+        className='fixed  z-40  my-auto bottom-30 right-11 w-10 h-10 md:h-12 md:w-12 xl:h-14 xl:w-14 ring-black/5 hover:-translate-y-2 transition-all duration-300 hover:cursor-pointer   border  border-gray-900 bg-gray-100 rounded-full p-2 flex justify-center items-center'
       >
         {showTOC == false ? (
           <LuTableOfContents className='relative size-6  ' />
@@ -25,7 +25,7 @@ const Products = () => {
         {showTOC && (
           <div
             onClick={(e) => e.stopPropagation()}
-            className='absolute bottom-10 right-5 sm:bottom-6 sm:right-15 xl:h-[450px] xl:w-[600px] sm:h-[450px] sm:w-[500px] w-[290px] h-[450px] z-30 bg-white/40 backdrop-blur-md ring-1 ring-black/10 rounded-2xl py-6 px-5 text-gray-800 overflow-y-auto hover:cursor-auto shadow-lg'
+            className='absolute bottom-2 right-10 sm:right-13 xl:right-15   xl:h-[450px] xl:w-[600px] sm:h-[450px] sm:w-[500px] w-[290px] h-[450px] z-30 bg-white/40 backdrop-blur-md ring-1 ring-black/10 rounded-2xl py-6 px-5 text-gray-800 overflow-y-auto hover:cursor-auto shadow-lg mt-20'
           >
             <h1 className='text-center text-xl font-extrabold'>
               TABLE OF CONTENTS
