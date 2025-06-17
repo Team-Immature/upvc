@@ -25,7 +25,7 @@ const ScrollToTopOfThePage = () => {
       {show && (
         <div
           onClick={sendTop}
-          className='hidden sm:flex fixed bottom-15 right-10 h-12 w-12 xl:h-15 xl:w-15 rounded-full bg-gray-800 text-white border active:scale-85 border-blue-300 z-20  justify-center items-center shadow-2xl hover:cursor-pointer hover:-translate-y-2 transition-all duration-200'
+          className='flex fixed bottom-15 right-11 h-10 w-10 md:h-13 md:w-13 rounded-full bg-gray-800 text-white border active:scale-85 border-blue-300 z-20  justify-center items-center shadow-2xl hover:cursor-pointer hover:-translate-y-2 transition-all duration-200'
         >
           <MdKeyboardDoubleArrowUp className='size-6' />
         </div>
