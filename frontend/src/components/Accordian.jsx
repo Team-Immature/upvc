@@ -3,7 +3,7 @@ import { HiPlus } from "react-icons/hi";
 import { FaAngleUp } from "react-icons/fa6";
 import { FaAngleDown } from "react-icons/fa6";
 const Accordian = () => {
-  const [one, setOne] = useState(false);
+  const [one, setOne] = useState(true);
   const [two, setTwo] = useState(false);
   const [three, setThree] = useState(false);
   const [four, setFour] = useState(false);
